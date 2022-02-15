@@ -12,3 +12,6 @@ cp -r swift ~/.vim/pack/bundle/start/
 
 echo "[LOG] Copying .vimrc file to your homefolder dir.."
 cp .vimrc ~/
+
+echo "[LOG] Installing Rust Lang syntax in VIM..."
+git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim
