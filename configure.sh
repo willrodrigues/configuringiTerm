@@ -15,3 +15,6 @@ cp .vimrc ~/
 
 echo "[LOG] Installing Rust Lang syntax in VIM..."
 git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim
+
+echo "[LOG] Installing Shell Integration"
+curl -L https://iterm2.com/shell_integration/install_shell_integration.sh | bash
